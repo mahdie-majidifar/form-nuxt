@@ -1,0 +1,102 @@
+@import url('./font.css');
+* {
+    font-family: danaFanum;
+}
+
+span {
+    font-size: 13px;
+}
+
+router-link {
+    font-size: 13px;
+}
+
+.main-card {
+    border-radius: 26px;
+    background: rgba(250, 250, 250, 0.4);
+    max-width: 1000px;
+}
+
+.input-style {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-color {
+    background: #7262ab;
+}
+
+.color-Purple {
+    color: #7262ab;
+}
+
+@media (max-width: 990px) {
+    .gif-disply {
+        display: none;
+    }
+    .m-custom {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 790px) {
+    .gif-disply {
+        display: none;
+    }
+    .m-custom {
+        margin: 60px !important;
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 490px) {
+    .gif-disply {
+        display: none;
+    }
+    .m-custom {
+        margin: 0px !important;
+    }
+}
+
+.gif {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 930px) {
+    .gif {
+        height: 460px;
+    }
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.main-a {
+    position: absolute;
+    height: 100%;
+    align-items: center;
+    background: rgb(225, 233, 235);
+    background: linear-gradient( 32deg, rgba(225, 233, 235, 1) 68%, rgba(225, 233, 235, 1) 74%, rgba(194, 198, 233, 1) 80%, rgba(208, 186, 224, 1) 85%, rgba(231, 189, 191, 1) 94%);
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.hover-pointer {
+    cursor: pointer;
+}
